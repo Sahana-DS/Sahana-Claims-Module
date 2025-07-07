@@ -9,7 +9,7 @@ services:
       - "5203:5432"
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: admin321
+      POSTGRES_PASSWORD: admin234
       POSTGRES_DB: claims_db
     volumes:
       - pgdata:/var/lib/postgresql/data
